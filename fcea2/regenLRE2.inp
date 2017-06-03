@@ -1,0 +1,19 @@
+problem ro fac fz
+acat=9.00
+supar=3.64
+o/f=2.00
+p,bar=20.4
+pip=20.4
+reactants
+fuel= n-octane C 8 O 0 N 0 H 18
+wt%=100.00
+h,kj=-250.50
+t(k)=298.16
+oxid = O2 C 0 O 2 N 0 H 0
+wt%= 100.00
+t(k)=298.16
+h,kj=0.00
+output    short  transport
+plot
+visfz condfz pranfz mach ae cf isp
+end
